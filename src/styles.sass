@@ -1,0 +1,37 @@
+body
+  margin: 0
+  padding: 0
+
+  .app
+    position: relative
+    height: 100vh
+    min-height: 500px
+    overflow: hidden
+    display: flex
+    justify-content: center
+    align-items: center
+
+  .wrap
+    position: relative
+    height: 100%
+    width: 100%
+
+  img
+    width: 100%
+    object-fit: contain
+    max-height: 100%
+
+  .svg
+    position: absolute
+    top: 0
+    left: 0
+    width: 100%
+    max-height: 100%
+
+  polygon, path
+    fill: transparent
+    cursor: pointer
+    outline: none
+
+  polygon:hover, path:hover
+    fill: rgba(255, 255, 0, .5)
